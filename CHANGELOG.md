@@ -13,3 +13,14 @@ the following form: YYYY.0M.0D.
 - Designed a ClimbingHelper component
 - Designed an Inventory component
 - Designed a ShotTracker component
+
+## [Assignment 2] - 2024.10.03
+
+### Added
+
+- Designed a proof of concept for shotTracker component
+
+### Updated
+
+- Changed design to include two more kernel methods getDistance and getClubType
+- Updated variables clubType and shotType to be integers instead of Strings
