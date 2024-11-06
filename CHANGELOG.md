@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [Assignment 3] - 2024.10.17
+
+### Added
+
+ - Designed interfaces for ShotTracker, ShotTrackerKernel, and ShotTracker.Shot
+
+### Updated
+
+ - Removed the getDistance and getClubType methods from the ShotTrackerKernel, instead replacing them with getShot
+ - Added an internal class Shot that models each individual shot and contains 3 methods, getDistance, getShotType, and getClubType
+
 ## [Assignment 2] - 2024.10.03
 
 ### Added
