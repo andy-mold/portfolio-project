@@ -14,7 +14,7 @@ the following form: YYYY.0M.0D.
 
 ### Updated
 
-- ToString implementation
+- Added a ToString implementation and equals implementation
 
 ## [Assignment 3] - 2024.10.17
 

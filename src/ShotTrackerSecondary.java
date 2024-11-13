@@ -76,6 +76,35 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
         return s;
     }
 
+    // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
+    @Override
+    public boolean equals(Object other) {
+        if (this == other) {
+            return true;
+        }
+        if (other == null) {
+            return false;
+        }
+        if (!(other instanceof ShotTracker)) {
+            return false;
+        }
+        ShotTracker s = (ShotTracker) other;
+        if (this.length() != s.length()) {
+            return false;
+        }
+        for (int i = 0; i < this.length(); i++) {
+            ShotTracker.Shot thisShot = this.getShot(i);
+            ShotTracker.Shot otherShot = s.getShot(i);
+
+            if (thisShot.getDistance() != otherShot.getDistance()
+                    || thisShot.getClubType() != otherShot.getClubType()
+                    || thisShot.getShotType() != otherShot.getClubType()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     /*
      * Other non-kernel methods -----------------------------------------------
      */
