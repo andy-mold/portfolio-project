@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [Assignment 4] 2024.11.12
+
+### Added
+
+- Designed abstract class for ShotTracker component
+
+### Updated
+
+- Added a ToString implementation and equals implementation
+
 ## [Assignment 3] - 2024.10.17
 
 ### Added
