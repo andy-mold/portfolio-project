@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [Assignment 5] 2024.12.03
+
+### Added
+
+- Designed kernel implementation for ShotTracker component
+
+### Updated
+
+- Included all kernel methods from ShotTrackerKernel interface
+- Included all standard methods including transferFrom, clear, newInstance
+- Created an iterator for the ShotTracker component
+
 ## [Assignment 4] 2024.11.12
 
 ### Added
