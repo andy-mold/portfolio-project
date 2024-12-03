@@ -6,7 +6,7 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
     /**
      * * Layered implementations of secondary methods for {@code Shot}.
      */
-    public abstract class Shot implements ShotTracker.Shot {
+    protected static final class Shot implements ShotTracker.Shot {
 
         /**
          * The distance of the shot in yards.
@@ -136,6 +136,8 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
     // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
     @Override
     public ShotTracker saveHole(int n) {
+        assert n <= this.length() : "Violation of: |this| >= n";
+
         ShotTracker hole = this.newInstance();
         for (int i = this.length() - n; i < this.length(); i++) {
             ShotTracker.Shot current = this.getShot(0);

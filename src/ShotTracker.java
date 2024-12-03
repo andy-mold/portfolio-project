@@ -9,6 +9,7 @@ public interface ShotTracker extends ShotTrackerKernel {
      * {@code ShotTracker}'s {@code removeShot} method.
      */
     interface Shot {
+
         /**
          * Returns this {@code Shot}'s distance.
          *
@@ -63,7 +64,7 @@ public interface ShotTracker extends ShotTrackerKernel {
      * @param n
      *            The number of shots to save.
      * @return new ShotTracker containing the previous n shots.
-     * @requires |this| <= n
+     * @requires |this| >= n
      * @ensures saveHole = final n shots of this
      */
     ShotTracker saveHole(int n);
