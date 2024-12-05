@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Andy Mold**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
+- **Mold.5**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
+- **12/04 @ 11:59 PM**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
 
 ## Assignment Overview
 
@@ -131,8 +131,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -298,18 +296,27 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I think that this has vastly improved my understanding of software development
+because I have gained an understanding of how to actually create my own
+component in full from start to finish using the design by contract way of
+thinking. I think this project will greatly increase my capabilities when it
+comes to applying my skills at a job in the future.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+It definitely surfaced a gap when it came to understanding how to define
+classes, subclasses, and methods and what keywords to use for each type of file.
+These were fairly easily resolved with a little bit of research but were also
+quite helpful to fix because I think I will need this info in the future.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I think this improved my outlook on software development as a whole, because
+it allowed me to better use my own creativity because I was creating something
+that I actually wanted to make and was interested in.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -317,29 +324,47 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I better learned how to use github, git, and pull requests to make work flow
+more nicely. I improved my ability to create programs without using a skeleton
+program entirely from scratch. I Also learned how to use nested classes,
+create an iterator, and override some of the object methods in java.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+Skills:
+Using github and git with pull requests.
+Creating java programs and files entirely from scratch without a skeleton.
+Creating nested classes.
+Creating an iterator.
+Overriding equals and toString object methods.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I think I am definintely more interested in software development after this
+project, and I would definitely consider doing something in a small team or
+more solo rather than joining a large company because I liked being able to
+understand every single thing I was working with and create something that I
+actually have pride in.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+I plan to work on other projects like this in the future, and create more
+of my own software components. I would also like to work on learning unity
+because I am also interested in game development, and that seems like the most
+applicable software to learn. Also, I would like to do a better job of marketing
+myself mostly by improving my github and linkedin pages, and also potentially
+writing some articles or making posts of some kind. In terms of mentors, my
+uncle works in the software development space, so I can use him for help,
+and I will be sure to keep in touch with you for feedback on any project that I
+make in the future, or for letters of recommendation.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -374,8 +399,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -426,8 +449,6 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [markdown-to-pdf-guide]: https://therenegadecoder.com/blog/how-to-convert-markdown-to-a-pdf-3-quick-solutions/
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9

@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [Assignment 6] 2024.12.04
+
+### Added
+
+- Designed test suite for ShotTracker component
+- Designed two different use cases for ShotTracker component
+- Added polish to the files
+- Answered reflection questions
+
 ## [Assignment 5] 2024.12.03
 
 ### Added

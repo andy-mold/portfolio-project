@@ -1,3 +1,5 @@
+package components.shottracker;
+
 /**
  *  * Layered implementations of secondary methods for {@code ShotTracker}.  
  */
@@ -98,7 +100,7 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
 
             if (thisShot.getDistance() != otherShot.getDistance()
                     || thisShot.getClubType() != otherShot.getClubType()
-                    || thisShot.getShotType() != otherShot.getClubType()) {
+                    || thisShot.getShotType() != otherShot.getShotType()) {
                 return false;
             }
         }
@@ -130,7 +132,12 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
                 numberOfShots++;
             }
         }
-        return average / numberOfShots;
+        if (average > 0) {
+            average = average / numberOfShots;
+        } else {
+            average = -1;
+        }
+        return average;
     }
 
     // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
@@ -140,7 +147,7 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
 
         ShotTracker hole = this.newInstance();
         for (int i = this.length() - n; i < this.length(); i++) {
-            ShotTracker.Shot current = this.getShot(0);
+            ShotTracker.Shot current = this.getShot(i);
             hole.addShot(current.getDistance(), current.getClubType(),
                     current.getShotType());
         }

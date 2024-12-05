@@ -1,3 +1,5 @@
+package components.shottracker;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -5,7 +7,18 @@ import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 
 /**
- * Class.
+ * {@code ShotTracker} represented as a {@code Sequence} with implementations of
+ * primary methods.
+ *
+ * @convention <pre>
+ * [All elements in $this.rep are shot objects containing the
+ * distance (integer), clubType (integer between 0-14),
+ * and shotType (integer between 0-5)].
+ * </pre>
+ *
+ * @correspondance <pre>
+ * Each entry in rep represents a shot, in order of when they were added.
+ * </pre>
  */
 public class ShotTrackerOnSequence extends ShotTrackerSecondary {
 
@@ -40,14 +53,16 @@ public class ShotTrackerOnSequence extends ShotTrackerSecondary {
 
     // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
     @Override
-    public final void addShot(int clubType, int shotType, int distance) {
+    public final void addShot(int distance, int clubType, int shotType) {
+        final int numClubs = 14;
+        final int numShots = 5;
         assert clubType >= 0
-                && clubType <= 14 : "Violation of: 0 <= clubType <= 14";
+                && clubType <= numClubs : "Violation of: 0 <= clubType <= 14";
         assert shotType >= 0
-                && shotType <= 5 : "Violation of: 0 <= shotType <= 5";
+                && shotType <= numShots : "Violation of: 0 <= shotType <= 5";
 
-        ShotTracker.Shot shot = new ShotTrackerSecondary.Shot(clubType,
-                shotType, distance);
+        ShotTracker.Shot shot = new ShotTrackerSecondary.Shot(distance,
+                clubType, shotType);
         this.rep.add(this.rep.length(), shot);
 
     }

@@ -1,3 +1,5 @@
+package components.shottracker;
+
 import components.standard.Standard;
 
 /**
