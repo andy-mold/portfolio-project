@@ -4,7 +4,7 @@ import components.sequence.Sequence1L;
 /**
  * Class.
  */
-public class ShotTrackerConcept {
+public class ShotTrackerDemo {
 
     /*
      * Private members --------------------------------------------------------
@@ -27,7 +27,7 @@ public class ShotTrackerConcept {
     /**
      * No-argument constructor.
      */
-    public ShotTrackerConcept() {
+    public ShotTrackerDemo() {
 
         this.createNewRep();
 
@@ -129,7 +129,7 @@ public class ShotTrackerConcept {
      */
     public static void main(String[] args) {
 
-        ShotTrackerConcept shotTracker = new ShotTrackerConcept();
+        ShotTrackerDemo shotTracker = new ShotTrackerDemo();
 
         /*
          * ClubType key 0 = driver 1 = 3 wood 2 = 5 wood 3 = 3 iron 4 = 4 iron 5

@@ -1,3 +1,5 @@
+package components.shottracker;
+
 /**
  * {@code ShotTrackerKernel} enhanced with secondary methods.
  */
