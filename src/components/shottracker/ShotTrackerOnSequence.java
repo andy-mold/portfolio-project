@@ -7,7 +7,18 @@ import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 
 /**
- * Class.
+ * {@code ShotTracker} represented as a {@code Sequence} with implementations of
+ * primary methods.
+ *
+ * @convention <pre>
+ * [All elements in $this.rep are shot objects containing the
+ * distance (integer), clubType (integer between 0-14),
+ * and shotType (integer between 0-5)].
+ * </pre>
+ *
+ * @correspondance <pre>
+ * Each entry in rep represents a shot, in order of when they were added.
+ * </pre>
  */
 public class ShotTrackerOnSequence extends ShotTrackerSecondary {
 
