@@ -132,7 +132,12 @@ public abstract class ShotTrackerSecondary implements ShotTracker {
                 numberOfShots++;
             }
         }
-        return average / numberOfShots;
+        if (average > 0) {
+            average = average / numberOfShots;
+        } else {
+            average = -1;
+        }
+        return average;
     }
 
     // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
